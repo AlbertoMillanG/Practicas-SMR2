@@ -1,0 +1,145 @@
+<html>
+
+
+<head>
+
+
+    <title>Ejercicio 18</title>
+
+
+
+</head>
+
+
+<body>
+
+        <h2>Pedido pizza</h2>
+
+        <img src="pizza.jpg" width="550" height="450">
+
+
+
+    <fieldset>
+
+
+        <legend>Configura tu pizza</legend>
+
+        Tipo de masa:
+
+        <input type="checkbox" name="Fina" /> <label>Fina</label>
+        <input type="checkbox" name="Gorda" /> <label>Gorda</label>
+
+            <br />
+            <br />
+
+        Tipos de salsa:
+
+        <label><input type="radio" name="salsa" value="Tomate">Tomate</label>
+        <label><input type="radio" name="salsa" value="Barbacoa">Barbacoa</label>
+        <label><input type="radio" name="salsa" value="Carbonara">Carbonara</label>
+
+            <br />
+            <br />
+
+        Queso:
+
+        <label><input type="radio" name="Queso" value="Si">Si</label>
+        <label><input type="radio" name="Queso" value="No">No</label>
+
+
+            <br />
+            <br />
+
+
+        Ingrediente Adicional:
+
+        <select>
+
+            <option>Cebolla</option>
+            <option>Bacon</option>
+            <option>Jamon York</option>
+            <option>Chorizo</option>
+            <option>Carne picada</option>
+            <option>Jamon Serrano</option>
+            <option>Pimienta</option>
+            <option>Orégano</option>
+            <option>Salami</option>
+            <option>Mozzarella</option>
+
+        </select>
+
+
+
+            <br />
+            <br />
+
+        Tamaño:
+
+        <label><input type="radio" name="tamaño" value="Pequeña">Pequeña</label>
+        <label><input type="radio" name="tamaño" value="mediana">Mediana</label>
+        <label><input type="radio" name="tamaño" value="Familiar">Familiar</label>
+
+
+
+    </fieldset>
+
+
+    <fieldset>
+
+
+        <legend>Datos de pago</legend>
+
+          <br />
+
+      
+       <label for="nombre">Número de cuenta</label>
+       <input type="tel" maxlength="16" placeholder="IBAN...">
+   
+        <br />
+        <br />
+     
+        
+      <label for="nombre">Fecha de caducidad</label>
+      <input type="date" value="mm/aaaa">
+   
+       
+        <br />
+        <br />
+
+        
+        
+      <label for="nombre">Código de seguridad</label>
+      <input type="tel" maxlength="3" placeholder="cvc">
+    
+        
+    </fieldset>
+        
+        
+     <fieldset>
+         
+    <legend>Datos de entrega: </legend>
+         
+    <p>  
+      <label for="nombre">Direccion completa</label>
+      <input type="text" name="nombre" id="nombre" value="" placeholder="">
+    </p>
+     
+    <p>
+     <textarea rows="10" cols="50">¿Alguna observación?</textarea>  
+    </p>
+ </fieldset>
+   
+ <fieldset>
+     <legend>Finalizar</legend>  
+    <p>
+      <input type="submit">
+      <input type="reset" value="reiniciar datos">
+    </p>
+     
+ </fieldset>
+
+    </body>
+    
+</html>
+    
+
