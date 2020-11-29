@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Cambio de tamaño</title>
+      <style>
+
+@media (min-width:100px) and  (max-width:200px){
+  body {
+      background-color: #FF3232
+    }
+    img#Grande {
+      src: url('Gigante.jpg');
+    }
+}
+
+@media (min-width:200px) and  (max-width:300px){
+  body {
+      background-color: #FF2525
+   }
+   img#Grande {
+     src: url('Gigante.jpg');
+   }
+}
+
+@media (min-width:300px) and  (max-width:400px){
+  body {
+      background-color: #FF1010
+   }
+   img#Grande {
+     src: url('Gigante.jpg');
+   }
+}
+
+@media (min-width:400px) and  (max-width:500px){
+  body {
+      background-color: #FF0000
+   }
+}
+
+@media (min-width:500px) and  (max-width:600px){
+  body {
+      background-color: #E20000
+   }
+}
+
+@media (min-width:600px) and  (max-width:700px){
+  body {
+      background-color: #BA0000
+   }
+}
+
+@media (min-width:700px) and  (max-width:800px){
+  body {
+      background-color: #AC0000
+   }
+}
+
+@media (min-width:800px) and  (max-width:900px){
+  body {
+      background-color: #A40000
+   }
+}
+
+@media (min-width:900px) and  (max-width:1000px){
+  body {
+      background-color: #900000
+   }
+}
+
+@media (min-width:1000px) {
+  body {
+      background-color: #790000
+   }
+}
+
+
+</style>
+  </head>
+
+  <body>
+    <center><h1>Observa lo que pasa cuando vas haciendo mas pequeña la página</h1><center>
+
+
+    <img id="Grande" src="Gigante.jpg" width="500px" height="400px"></img>
+
+
+    <img id="Mediano" src="mediano.jpeg" width="600px" height="400px"></img>
+
+
+    <img id="Pequeño" src="pequeño.png" width="500px" height="400px"><img>
+
+
+
+  </body>
+</html>
